@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trip Name"
+        android:layout_margin="8dp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/trip_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Driver Phone No"
+        android:layout_margin="8dp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/driver_phone_no"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Follower Names"
+        android:layout_margin="8dp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/follwer_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Follwer Phone No's"
+        android:layout_margin="8dp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/follower_no"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="hackathon.onemg.com.followup.ContactsListFragment"
+        android:id="@+id/contact_list"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/cta_container"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/shadow_top"
+        android:orientation="horizontal"
+        android:paddingTop="4dp"
+        android:layout_alignParentBottom="true">
+
+
+        <TextView
+            android:id="@+id/add_followers"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@color/address_back"
+            android:gravity="center"
+            android:text="Add Followers"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/start_trip"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="@color/crimson"
+            android:gravity="center"
+            android:text="Start Trip"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>

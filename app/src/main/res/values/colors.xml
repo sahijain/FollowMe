@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="holo_blue">#FF33B5E5</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="translucent">#50ffffff</color>
+    <color name="yellow">#ffff00</color>
+    <color name="crimson">#1490CC</color>
+    <color name="blue_btn">#00bff2</color>
+    <color name="transparent">#ffffff</color>
+    <color name="address_back">#E5E5E5</color>
+    <color name="divider">#e6e6e6</color>
+    <color name="hint_colour">#e6e6e6</color>
+
+    <color name="rating1">#D32F2F</color>
+    <color name="rating2">#FF9800</color>
+    <color name="rating3">#03A9F4</color>
+    <color name="rating4">#8BC34A</color>
+    <color name="rating5">#4CAF50</color>
+
+    <color name="rating_app_bar">#4caf50</color>
+    <color name="succes_stars_back">#8bc34a</color>
+    <color name="ratingcolor">#ffc40a</color>
+    <color name="default_text_colour">#999999</color>
+    <color name="red">#f05362</color>
+</resources>

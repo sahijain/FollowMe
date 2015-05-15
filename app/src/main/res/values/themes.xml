@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DoctorMapListActivitytheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/Widget.crimson.ActionBar</item>
+        <item name="actionBarStyle">@style/Widget.crimson.ActionBar</item>
+    </style>
+</resources>
